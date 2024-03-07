@@ -9,9 +9,9 @@ This script converts image annotations stored in a CSV file into TFRecord format
 
 ## Installation
 1. Install the required libraries using pip:
-   ```bash
-   pip install tensorflow pandas
-   ``` 
+```bash
+pip install tensorflow pandas
+``` 
 
 ## Usage
 1. Update the input directory (input_dir), output directory (output_dir), output TFRecord filename (output_tfrecord_filename), and class ID mapping (class_id_mapping) in the script as per your dataset.
