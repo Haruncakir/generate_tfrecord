@@ -27,21 +27,19 @@ pip install tensorflow pandas
     ymax: Maximum y-coordinate of the bounding box.
 
 3. Run the script to create the TFRecord:
-   ```bash
-  pip install tensorflow pandas 
-   ```
+```bash
+pip install tensorflow pandas 
+```
 
 
 ## Example
 For a sample dataset, consider the following directory structure:
-```
 dataset/
 ├── images/
 │   ├── image1.jpg
 │   ├── image2.jpg
 │   └── ...
 └── annotations.csv
-```
 
 Here's how the CSV file (annotations.csv) might look like:
 ```csv
